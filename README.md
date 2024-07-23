@@ -117,3 +117,47 @@ _ _ _ _ _ _ _
 [Hangman stage graphic]
 ...
 ```
+
+# Caesar Cipher
+
+This project is a Python implementation of the Caesar Cipher encryption technique. The user can choose to either encode or decode a message by shifting the letters of the alphabet by a specified amount.
+
+## Features
+
+- User input for choosing between encoding and decoding
+- User input for the message to be encrypted or decrypted
+- User input for the shift amount
+- Ability to restart the program for multiple uses
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `caesar_cipher.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python caesar_cipher.py
+    ```
+4. Follow the prompts to encode or decode a message:
+    - Type 'encode' to encrypt a message
+    - Type 'decode' to decrypt a message
+5. Enter your message and the shift amount when prompted.
+6. The script will display the encoded or decoded result.
+7. You can choose to restart the program or exit.
+
+## Example
+
+```bash
+Type 'encode' to encrypt, type 'decode' to decrypt:
+encode
+Type your message:
+hello world
+Type the shift number:
+5
+Here's the encoded result: mjqqt btwqi
+Do you want to restart the cipher program? Type Yes or No
+yes
+...
