@@ -1,3 +1,7 @@
+# Introduction
+
+This repository hosts a collection of small coding projects I've worked on over the years. While the repository itself is new, the projects within date back several years.
+
 # Rock-Paper-Scissors Game
 
 This is a simple command-line implementation of the classic game Rock-Paper-Scissors. The user can choose between rock, paper, or scissors, and the computer will randomly choose its move. The outcome of the game is then displayed: win, lose, or draw.
