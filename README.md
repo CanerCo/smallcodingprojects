@@ -69,4 +69,47 @@ How many numbers would you like?
 2
 Your password: Abcd!@12
 Shuffled version of the password: b@2Ad1c!
+```
+# Hangman Game
 
+This project is a Python implementation of the classic Hangman game. The user has to guess the letters of a randomly chosen word within a limited number of attempts.
+
+## Features
+
+- Random word selection from a predefined list
+- User input to guess letters
+- Feedback on correct and incorrect guesses
+- Display of the current state of the word
+- Display of a hangman graphic that changes with each incorrect guess
+- Win or lose notification
+
+## Files
+* **`hangman.py`**: Main script to run the Hangman game.
+* **`hangman_words.py`**: Contains the list of words to be used in the game.
+* **`hangman_art.py`**: Contains the hangman stages and logo art
+## Requirements
+
+- Python 3.x
+- `replit` module (for clearing the console)
+
+## How to Play
+
+1. Clone the repository or download the script `hangman.py`.
+2. Ensure you have `hangman_words.py` and `hangman_art.py` in the same directory. These files should contain the word list and art for the game.
+3. Open a terminal and navigate to the directory containing the script.
+4. Run the script using Python:
+    ```bash
+    python hangman.py
+    ```
+5. Follow the prompts to guess letters and try to figure out the word before running out of lives.
+
+## Example
+
+```bash
+_ _ _ _ _ _ _
+Guess a letter: a
+You guessed a, that's not in the word. You lose a life.
+_ _ _ _ _ _ _
+[Hangman stage graphic]
+...
+```
