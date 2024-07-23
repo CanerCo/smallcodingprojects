@@ -29,13 +29,12 @@ for j in range (1, nr_numbers+1):
   random_number += numbers[n]
 
 password = random_letter + random_symbol + random_number
-print(password)
+print(f"Your password: {password}")
 
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
 password_list = list(password)
-print(password_list)
 random.shuffle(password_list)
 shuffled_password = ''.join(password_list)
-print(shuffled_password)
+print(f"Shuffled version of the password: {shuffled_password}")
