@@ -1,37 +1,61 @@
+from replit import clear
+import random
 
-All_bidders = []
 
-def adding_bids(bidder_name, bid_amount):
-    bid_dictionary = {}
-    bid_dictionary["name"] = bidder_name
-    bid_dictionary["bid"] = bid_amount
-    All_bidders.append(bid_dictionary)
 
-is_bidder = True
-while is_bidder:
-      name = input("What is your name?: ")
-      bid = int(input("What's your bid?: $"))
-      ask_bidder = input("Are there any other bidders? Type 'yes' or 'no'").lower()
-      adding_bids(name, bid)
-      if ask_bidder == "yes":
-            #clear()
-            is_bidder = True
-      else:
-            is_bidder = False
-      
-      
+# Update the word list to use the 'word_list' from hangman_words.py
+from hangman_words import word_list
 
-winner_bid = 0
-for i in range(0, len(All_bidders)): 
-    current_bid =  All_bidders[i]["bid"]
-    while current_bid > winner_bid:
-        winner_dict = i
-        winner_name = All_bidders[i]["name"]
-        winner_bid = All_bidders[i]["bid"]
-    else:
-        winner_name = All_bidders[winner_dict]["name"]
-        winner_bid = All_bidders[winner_dict]["bid"]
+chosen_word = random.choice(word_list)
+word_length = len(chosen_word)
 
-    
-print(f"The winner is {winner_name} with a bid of ${winner_bid}")
+end_of_game = False
+lives = 6
 
+# Import the logo from hangman_art.py and print it at the start of the game.
+from hangman_art import logo
+print(logo)
+
+#Testing code
+# print(f'Pssst, the solution is {chosen_word}.')
+
+#Create blanks
+display = []
+for _ in range(word_length):
+    display += "_"
+
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
+    clear()
+    # If the user has entered a letter they've already guessed, print the letter and let them know.
+    if guess in display:
+        print(f"You've already guessed {guess}")
+
+    #Check guessed letter
+    for position in range(word_length):
+        letter = chosen_word[position]
+        #print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
+        if letter == guess:
+            display[position] = letter
+
+    #Check if user is wrong.
+    if guess not in chosen_word:
+        # If the letter is not in the chosen_word, print out the letter and let them know it's not in the word.
+        print(f"You guessed {guess}, that's not in the word. You lose a life.")
+        
+        lives -= 1
+        if lives == 0:
+            end_of_game = True
+            print("You lose.")
+
+    #Join all the elements in the list and turn it into a String.
+    print(f"{' '.join(display)}")
+
+    #Check if user has got all letters.
+    if "_" not in display:
+        end_of_game = True
+        print("You win.")
+
+    # Import the stages from hangman_art.py and make this error go away.
+    from hangman_art import stages
+    print(stages[lives])
