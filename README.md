@@ -161,3 +161,42 @@ Here's the encoded result: mjqqt btwqi
 Do you want to restart the cipher program? Type Yes or No
 yes
 ...
+```
+# Blind Auction
+
+This project is a Python implementation of a blind auction. Multiple users can input their bids, and the script determines the highest bidder.
+
+## Features
+
+- User input for bidder's name and bid amount
+- Option to add multiple bidders
+- Automatically clears the console for new bids
+- Determines and announces the highest bidder
+
+## Requirements
+
+- Python 3.x
+- `replit` module (for clearing the console)
+
+## How to Use
+
+1. Clone the repository or download the script `blind_auction.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python blind_auction.py
+    ```
+4. Follow the prompts to enter bidders' names and their bids.
+5. After all bids are entered, the script will display the highest bidder.
+
+## Example
+
+```bash
+What is your name?: Alice
+What's your bid?: $150
+Are there any other bidders? Type 'yes' or 'no': yes
+# (Console clears)
+What is your name?: Bob
+What's your bid?: $200
+Are there any other bidders? Type 'yes' or 'no': no
+The winner is Bob with a bid of $200
