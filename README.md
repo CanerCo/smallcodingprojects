@@ -39,6 +39,40 @@ Max
 Your band name could be Paris Max
 ```
 
+# BMI Calculator
+
+This project is a simple Python program that calculates the Body Mass Index (BMI) based on user inputs for height and weight.
+
+## Features
+
+- Asks the user for their height in meters.
+- Asks the user for their weight in kilograms.
+- Calculates the BMI using the formula: `BMI = weight / height^2`.
+- Converts the BMI to an integer and displays it.
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `bmi_calculator.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python bmi_calculator.py
+    ```
+4. Follow the prompts to input your height in meters and weight in kilograms.
+5. The script will display your calculated BMI.
+
+## Example
+
+```bash
+Enter your height in meters (e.g., 1.65): 1.75
+Enter your weight in kilograms (e.g., 72): 68
+Your BMI is: 22
+```
+
 # Rock-Paper-Scissors Game
 
 This is a simple command-line implementation of the classic game Rock-Paper-Scissors. The user can choose between rock, paper, or scissors, and the computer will randomly choose its move. The outcome of the game is then displayed: win, lose, or draw.
