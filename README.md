@@ -1,6 +1,6 @@
 # Introduction
 
-This repository hosts a collection of small coding projects I've worked on over the years. While the repository itself is new, the projects within date back several years. The difficulty range from very basic coding projects to beginner level. This repository is an earlier projects on the journey how I got into python coding.
+This repository hosts a collection of small coding projects I've worked on over the years. While the repository itself is new, the projects within date back several years. The difficulty range from very basic coding projects to beginner level. This repository is an earlier projects on the journey how I got into python coding. However, Readme file does not follow any order in terms of difficulty.
 
 # Caesar Cipher
 
