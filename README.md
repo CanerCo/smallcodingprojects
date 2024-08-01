@@ -2,6 +2,43 @@
 
 This repository hosts a collection of small coding projects I've worked on over the years. While the repository itself is new, the projects within date back several years.
 
+# Band Name Generator
+
+This project is a simple Python program that generates a band name based on user inputs. The user is asked for the name of the city they grew up in and the name of their pet, and the program combines these inputs to generate a band name.
+
+## Features
+
+- Greets the user.
+- Asks the user for the name of the city they grew up in.
+- Asks the user for the name of their pet.
+- Combines the inputs to generate and display a band name.
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `band_name_generator.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python band_name_generator.py
+    ```
+4. Follow the prompts to input the name of the city you grew up in and the name of your pet.
+5. The script will display your band name.
+
+## Example
+
+```bash
+Welcome to the Band Name Generator.
+What is the name of the city you grew up in?
+Paris
+What is your pet's name?
+Max
+Your band name could be Paris Max
+```
+
 # Rock-Paper-Scissors Game
 
 This is a simple command-line implementation of the classic game Rock-Paper-Scissors. The user can choose between rock, paper, or scissors, and the computer will randomly choose its move. The outcome of the game is then displayed: win, lose, or draw.
