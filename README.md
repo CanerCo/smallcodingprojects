@@ -47,6 +47,41 @@ yes
 ...
 ```
 
+# Treasure Map Game
+
+This project is a simple Python program that allows the user to hide a treasure on a 3x3 grid. The user specifies the location using a combination of letters (A, B, C) for columns and numbers (1, 2, 3) for rows.
+
+## Features
+
+- Displays a 3x3 grid where the user can place a treasure.
+- Prompts the user to specify the treasure's location using column and row identifiers (e.g., A1, B2, C3).
+- Updates the grid to show the treasure's location with an "X".
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `treasure_map.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python treasure_map.py
+    ```
+4. Follow the prompt to input the location for the treasure using a combination of a letter (A, B, C) and a number (1, 2, 3).
+5. The script will display the updated grid with the treasure's location marked with an "X".
+
+## Example
+
+```bash
+Hiding your treasure! X marks the spot.
+Where do you want to put the treasure? Choose from A, B, C and 1, 2, 3 (e.g., A3): B2
+⬜️ ⬜️ ⬜️
+⬜️ X ⬜️
+⬜️ ⬜️ ⬜️
+```
+
 # Band Name Generator
 
 This project is a simple Python program that generates a band name based on user inputs. The user is asked for the name of the city they grew up in and the name of their pet, and the program combines these inputs to generate a band name.
