@@ -348,6 +348,40 @@ What's your bid?: $200
 Are there any other bidders? Type 'yes' or 'no': no
 The winner is Bob with a bid of $200
 ```
+# Leap Year Checker
+
+This project is a simple Python program that checks whether a given year is a leap year or not.
+
+## Features
+
+- Prompts the user to enter a year.
+- Determines if the entered year is a leap year using the following rules:
+  - A year is a leap year if it is divisible by 4.
+  - However, if the year is also divisible by 100, it is not a leap year unless it is also divisible by 400.
+- Displays whether the entered year is a leap year or not.
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `leap_year_checker.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python leap_year_checker.py
+    ```
+4. Follow the prompt to input the year you want to check.
+5. The script will display whether the entered year is a leap year or not.
+
+## Example
+
+```bash
+What year do you want to check?: 2024
+Leap year
+```
+
 
 # Tip Calculator
 
