@@ -1,6 +1,51 @@
 # Introduction
 
-This repository hosts a collection of small coding projects I've worked on over the years. While the repository itself is new, the projects within date back several years.
+This repository hosts a collection of small coding projects I've worked on over the years. While the repository itself is new, the projects within date back several years. The difficulty range from very basic coding projects to beginner level. This repository is a historical book on the earlier journey how I got into python coding.
+
+# Caesar Cipher
+
+This project is a Python implementation of the Caesar Cipher encryption technique. The user can choose to either encode or decode a message by shifting the letters of the alphabet by a specified amount.
+
+## Features
+
+- User input for choosing between encoding and decoding
+- User input for the message to be encrypted or decrypted
+- User input for the shift amount
+- Ability to restart the program for multiple uses
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `caesar_cipher.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python caesar_cipher.py
+    ```
+4. Follow the prompts to encode or decode a message:
+    - Type 'encode' to encrypt a message
+    - Type 'decode' to decrypt a message
+5. Enter your message and the shift amount when prompted.
+6. The script will display the encoded or decoded result.
+7. You can choose to restart the program or exit.
+
+## Example
+
+```bash
+Type 'encode' to encrypt, type 'decode' to decrypt:
+encode
+Type your message:
+hello world
+Type the shift number:
+5
+Here's the encoded result: mjqqt btwqi
+Do you want to restart the cipher program? Type Yes or No
+yes
+...
+```
 
 # Band Name Generator
 
@@ -38,6 +83,45 @@ What is your pet's name?
 Max
 Your band name could be Paris Max
 ```
+# Rollercoaster Ticket Pricing
+
+This project is a simple Python program that calculates the ticket price for a rollercoaster ride based on the user's height, age, and whether they want a photo taken.
+
+## Features
+
+- Greets the user.
+- Asks the user for their height in cm to determine eligibility to ride.
+- Asks the user for their age to determine ticket price.
+- Offers a photo option for an additional cost, except for users aged 45 to 55 who ride for free.
+- Displays the total cost based on the user's selections.
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `rollercoaster.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python rollercoaster.py
+    ```
+4. Follow the prompts to input your height, age, and whether you want a photo taken.
+5. The script will display the total amount you need to pay.
+
+## Example
+
+```bash
+Welcome to the rollercoaster!
+What is your height in cm? 130
+You can ride the rollercoaster!
+How old are you? 14
+You have to pay $7
+Do you want to take photos? (yes/no) yes
+You have to pay an extra $3. The total amount is $10
+```
+
 
 # BMI Calculator
 
@@ -189,50 +273,7 @@ _ _ _ _ _ _ _
 ...
 ```
 
-# Caesar Cipher
 
-This project is a Python implementation of the Caesar Cipher encryption technique. The user can choose to either encode or decode a message by shifting the letters of the alphabet by a specified amount.
-
-## Features
-
-- User input for choosing between encoding and decoding
-- User input for the message to be encrypted or decrypted
-- User input for the shift amount
-- Ability to restart the program for multiple uses
-
-## Requirements
-
-- Python 3.x
-
-## How to Use
-
-1. Clone the repository or download the script `caesar_cipher.py`.
-2. Open a terminal and navigate to the directory containing the script.
-3. Run the script using Python:
-    ```bash
-    python caesar_cipher.py
-    ```
-4. Follow the prompts to encode or decode a message:
-    - Type 'encode' to encrypt a message
-    - Type 'decode' to decrypt a message
-5. Enter your message and the shift amount when prompted.
-6. The script will display the encoded or decoded result.
-7. You can choose to restart the program or exit.
-
-## Example
-
-```bash
-Type 'encode' to encrypt, type 'decode' to decrypt:
-encode
-Type your message:
-hello world
-Type the shift number:
-5
-Here's the encoded result: mjqqt btwqi
-Do you want to restart the cipher program? Type Yes or No
-yes
-...
-```
 # Blind Auction
 
 This project is a Python implementation of a blind auction. Multiple users can input their bids, and the script determines the highest bidder.
