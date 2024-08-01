@@ -264,6 +264,49 @@ How many numbers would you like?
 Your password: Abcd!@12
 Shuffled version of the password: b@2Ad1c!
 ```
+# Python Pizza Deliveries
+
+This project is a simple Python program that calculates the total bill for a pizza order based on the user's choices for pizza size, pepperoni addition, and extra cheese.
+
+## Features
+
+- Prompts the user to enter the size of the pizza (S, M, or L).
+- Asks if the user wants to add pepperoni (Y or N).
+- Asks if the user wants to add extra cheese (Y or N).
+- Calculates the total bill based on the user's choices.
+  - Small pizza: $15
+  - Medium pizza: $20
+  - Large pizza: $25
+  - Pepperoni for small pizza: +$2
+  - Pepperoni for medium or large pizza: +$3
+  - Extra cheese for any size: +$1
+- Displays the final bill to the user.
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `pizza_order.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python pizza_order.py
+    ```
+4. Follow the prompts to input your pizza size, whether you want pepperoni, and if you want extra cheese.
+5. The script will display your final bill amount.
+
+## Example
+
+```bash
+Thank you for choosing Python Pizza Deliveries!
+What size pizza do you want? S, M, or L: M
+Do you want pepperoni? Y or N: Y
+Do you want extra cheese? Y or N: N
+Your final bill is: $23.
+```
+
 # Hangman Game
 
 This project is a Python implementation of the classic Hangman game. The user has to guess the letters of a randomly chosen word within a limited number of attempts.
