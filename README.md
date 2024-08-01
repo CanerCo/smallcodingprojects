@@ -46,6 +46,58 @@ Do you want to restart the cipher program? Type Yes or No
 yes
 ...
 ```
+# FizzBuzz Program
+
+This project is a simple implementation of the classic FizzBuzz problem in Python. The program prints numbers from 1 to 100, with the following substitutions:
+- For multiples of three, it prints "Fizz" instead of the number.
+- For multiples of five, it prints "Buzz" instead of the number.
+- For numbers that are multiples of both three and five, it prints "FizzBuzz".
+
+## Features
+
+- Iterates through numbers from 1 to 100.
+- Substitutes multiples of three with "Fizz".
+- Substitutes multiples of five with "Buzz".
+- Substitutes multiples of both three and five with "FizzBuzz".
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `fizzbuzz.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python fizzbuzz.py
+    ```
+
+## Example
+
+```bash
+1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+...
+97
+98
+Fizz
+Buzz
+```
+
 
 # Treasure Map Game
 
