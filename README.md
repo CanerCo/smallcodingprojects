@@ -239,6 +239,44 @@ Are there any other bidders? Type 'yes' or 'no': no
 The winner is Bob with a bid of $200
 ```
 
+# Tip Calculator
+
+This project is a simple Python program that calculates the amount each person should pay when a bill is split among multiple people, including a specified tip percentage.
+
+## Features
+
+- Greets the user.
+- Asks the user for the total bill amount.
+- Asks the user for the desired tip percentage (10%, 12%, or 15%).
+- Asks the user for the number of people to split the bill.
+- Calculates the total amount each person should pay, including the tip.
+- Formats the result to 2 decimal places.
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `tip_calculator.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python tip_calculator.py
+    ```
+4. Follow the prompts to input the total bill amount, tip percentage, and number of people splitting the bill.
+5. The script will display the amount each person should pay.
+
+## Example
+
+```bash
+Welcome to the tip calculator
+What was the total bill? $150
+How much tip would you like to give? 10, 12, or 15?12
+How many people to split the bill?5
+Each person should pay: $33.60
+```
+
 # Calculator
 
 This project is a simple calculator implemented in Python. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division.
