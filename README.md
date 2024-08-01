@@ -157,6 +157,41 @@ Enter your weight in kilograms (e.g., 72): 68
 Your BMI is: 22
 ```
 
+# BMI Categorizer
+
+This project is a simple Python program that calculates the Body Mass Index (BMI) and categorizes the user's weight status based on their BMI.
+
+## Features
+
+- Asks the user for their height in meters.
+- Asks the user for their weight in kilograms.
+- Calculates the BMI using the formula: `BMI = weight / height^2`.
+- Categorizes the BMI into underweight, normal weight, slightly overweight, obese, and clinically obese.
+- Displays the BMI value rounded to one decimal place along with the weight status category.
+
+## Requirements
+
+- Python 3.x
+
+## How to Use
+
+1. Clone the repository or download the script `bmi_categorizer.py`.
+2. Open a terminal and navigate to the directory containing the script.
+3. Run the script using Python:
+    ```bash
+    python bmi_categorizer.py
+    ```
+4. Follow the prompts to input your height in meters and weight in kilograms.
+5. The script will display your calculated BMI and weight status.
+
+## Example
+
+```bash
+What is your height in meters?: 1.75
+What is your weight in kg?: 68
+Your BMI is 22.2, you have a normal weight.
+```
+
 # Rock-Paper-Scissors Game
 
 This is a simple command-line implementation of the classic game Rock-Paper-Scissors. The user can choose between rock, paper, or scissors, and the computer will randomly choose its move. The outcome of the game is then displayed: win, lose, or draw.
