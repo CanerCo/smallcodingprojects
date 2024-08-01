@@ -200,3 +200,52 @@ What is your name?: Bob
 What's your bid?: $200
 Are there any other bidders? Type 'yes' or 'no': no
 The winner is Bob with a bid of $200
+```
+
+# Calculator
+
+This project is a simple calculator implemented in Python. It can perform basic arithmetic operations like addition, subtraction, multiplication, and division.
+
+## Features
+
+- Perform addition, subtraction, multiplication, and division
+- Continue calculations with the previous result
+- Option to start a new calculation
+
+## Requirements
+
+- Python 3.x
+- `art` module (for displaying the logo)
+
+## How to Use
+
+1. Clone the repository or download the script `calculator.py`.
+2. Ensure you have the `art.py` file in the same directory, containing the `logo` variable.
+3. Open a terminal and navigate to the directory containing the script.
+4. Run the script using Python:
+    ```bash
+    python calculator.py
+    ```
+5. Follow the prompts to perform calculations:
+    - Enter the first number.
+    - Pick an operation symbol from the displayed list.
+    - Enter the next number.
+    - The script will display the result.
+    - You can choose to continue with the current result or start a new calculation.
+
+## Example
+
+```bash
+What is the first number?: 5
++
+-
+*
+/
+Pick an operation symbol: +
+What is the next number?: 3
+5 + 3 = 8.0
+Type 'y' to continue calculating with 8.0, or type 'n' to start a new calculation: y
+Pick an operation symbol: *
+What is the next number?: 2
+8.0 * 2 = 16.0
+Type 'y' to continue calculating with 16.0, or type 'n' to start a new calculation: n
